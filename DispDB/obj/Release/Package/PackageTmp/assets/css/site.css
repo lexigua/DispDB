@@ -1,0 +1,261 @@
+﻿body, html {
+    height: 100%;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI',Arial,'Microsoft Yahei',sans-serif;
+    color: #444;
+    letter-spacing: 1px;
+    background: #99B5CF;
+    height: 100%;
+    font-size: 75%;
+}
+
+a {
+    color: #444;
+    text-decoration: none;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+.aside {
+    background: #fff;
+    overflow: auto;
+    position: fixed;
+    height: auto;
+    top: 0;
+    bottom: 0;
+    margin: 5px;
+    width: 200px;
+}
+
+    .aside .tab-nav-bg {
+        background: #99B5CF;
+    }
+
+    .aside .tab-nav {
+        list-style: none;
+        padding: 0px;
+        margin: 0px;
+        background: #99B5CF url(../img/aside-nav-bg.png) left top repeat-x;
+        border-top-right-radius: 0.25rem;
+        border-top-left-radius: 0.25rem;
+        height: 27px;
+        line-height: 27px;
+    }
+
+        .aside .tab-nav li {
+            float: left;
+            cursor: pointer;
+        }
+
+            .aside .tab-nav li.active {
+                background: #99B5CF url(../img/aside-nav-bg-active.png) left top repeat-x;
+                border-top-right-radius: 0.25rem;
+                border-top-left-radius: 0.25rem;
+            }
+
+        .aside .tab-nav a {
+            border: 1px solid transparent;
+            border-top-right-radius: 0.25rem;
+            border-top-left-radius: 0.25rem;
+            padding: 1px 10px;
+        }
+
+.tab-content > .tab-pane {
+    display: none;
+}
+
+.tab-content > .active {
+    display: block;
+}
+
+
+.nav {
+    margin-top: 4px;
+    color: #333;
+    padding: 0;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    list-style: none;
+}
+
+    .nav > li {
+        white-space: nowrap;
+        margin-left: 10px;
+    }
+
+        .nav > li > ul {
+            margin-left: -22px;
+        }
+
+    .nav li {
+        line-height: 20px;
+    }
+
+    .nav img {
+        vertical-align: middle;
+    }
+
+    .nav a.active {
+        color: red;
+    }
+
+
+
+.aside .tab-content {
+    overflow-y: scroll;
+    overflow-x: auto;
+}
+
+.aside .tab-nav::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.aside .tab-content::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.main {
+    position: inherit;
+    /*margin: 5px 5px 5px 210px;*/
+    margin: 0px 5px 0px 210px;
+    height: 100%;
+    /*overflow: hidden;*/
+    /*background: #F0F0F0;*/
+    padding-top: 5px;
+}
+
+
+
+
+.J_mainContent {
+    background: #fff;
+}
+
+.J_menuTab:hover {
+}
+
+.J_menuTab.active {
+    padding: 0 17px;
+    border-bottom: none;
+    background: #99B5CF url(../img/main-nav-bg.png) left top repeat-x;
+    margin-bottom: -1px;
+}
+
+    .J_menuTab.active:hover {
+    }
+
+.J_menuTab {
+    display: block;
+    float: left;
+    padding: 0 15px;
+    position: relative;
+    border-top-right-radius: 0.25rem;
+    border-top-left-radius: 0.25rem;
+    height: 26px;
+    line-height: 26px;
+    margin-right: 2px;
+}
+
+
+
+.content-tabs {
+    position: relative;
+    background: #99B5CF;
+    margin-bottom: -1px;
+}
+
+    .content-tabs button {
+        background: #fff;
+        border: 0;
+        outline: 0;
+    }
+
+nav.page-tabs {
+    width: 100000px;
+    overflow: hidden;
+}
+
+    nav.page-tabs .page-tabs-content {
+        float: left;
+        margin-bottom: -1px;
+    }
+
+
+
+.content-tabs .roll-right, .content-tabs .roll-left {
+    position: absolute;
+    text-align: center;
+    z-index: 2;
+    top: 0;
+    border: none;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: -1px;
+    height: 19px;
+    width: 8px;
+}
+
+    .content-tabs .roll-right.r1 {
+        right: 57px;
+    }
+
+    .content-tabs .roll-right.r2 {
+        right: 22px;
+        background: #99B5CF url(../img/main-nav-close.png) left top no-repeat;
+    }
+
+    .content-tabs .roll-right.r3 {
+        right: 19px;
+    }
+
+    .content-tabs .roll-right.r4 {
+        right: 0px;
+        background: #99B5CF url(../img/main-nav-right.png) left top no-repeat;
+    }
+
+    .content-tabs .roll-right.r5 {
+        right: 44px;
+        background: #99B5CF url(../img/main-nav-left.png) left top no-repeat;
+    }
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);
+    position: absolute;
+    top: 0;
+    right: 2px;
+}
+
+.J_menuTab.active .fa, .J_menuTab:hover .fa {
+    display: inline-block;
+}
+
+.J_menuTab .fa {
+    display: none;
+}
+
+.fa:hover {
+    color: red;
+}
+
+
+.toolbar {
+    background: #ECECEC;
+    border-bottom: 1px solid #D8D8D8;
+}

@@ -1,0 +1,10 @@
+E:\项目\DispDB\DispDB\bin\DispDB.dll.config
+E:\项目\DispDB\DispDB\bin\DispDB.dll
+E:\项目\DispDB\DispDB\bin\DispDB.pdb
+E:\项目\DispDB\DispDB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\项目\DispDB\DispDB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\项目\DispDB\DispDB\obj\Debug\DispDB.csprojAssemblyReference.cache
+E:\项目\DispDB\DispDB\obj\Debug\DispDB.csproj.CoreCompileInputs.cache
+E:\项目\DispDB\DispDB\obj\Debug\DispDB.csproj.CopyComplete
+E:\项目\DispDB\DispDB\obj\Debug\DispDB.dll
+E:\项目\DispDB\DispDB\obj\Debug\DispDB.pdb

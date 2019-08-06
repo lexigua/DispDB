@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+此文件由 Web 项目的发布/打包过程使用。可以通过编辑此 MSBuild 文件
+自定义此过程的行为。为了解与此相关的更多内容，请访问 https://go.microsoft.com/fwlink/?LinkID=208121。 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>E:\项目\DispDB\DispDB\bin\Release\PublishOutput</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="AjaxHandler.ashx">
+      <publishTime>02/27/2019 15:24:43</publishTime>
+    </File>
+    <File Include="assets/css/site.css">
+      <publishTime>06/20/2018 11:03:39</publishTime>
+    </File>
+    <File Include="assets/css/sub.css">
+      <publishTime>06/20/2018 11:19:13</publishTime>
+    </File>
+    <File Include="assets/img/aside-nav-bg-active.png">
+      <publishTime>06/20/2018 11:41:45</publishTime>
+    </File>
+    <File Include="assets/img/aside-nav-bg.png">
+      <publishTime>02/22/2019 15:32:56</publishTime>
+    </File>
+    <File Include="assets/img/bg.gif">
+      <publishTime>06/20/2018 11:43:26</publishTime>
+    </File>
+    <File Include="assets/img/f0.png">
+      <publishTime>06/20/2018 11:02:22</publishTime>
+    </File>
+    <File Include="assets/img/f1.png">
+      <publishTime>06/20/2018 11:01:19</publishTime>
+    </File>
+    <File Include="assets/img/icon-proc.gif">
+      <publishTime>02/22/2019 15:27:31</publishTime>
+    </File>
+    <File Include="assets/img/icon-table.gif">
+      <publishTime>06/20/2018 11:42:58</publishTime>
+    </File>
+    <File Include="assets/img/icon-view.gif">
+      <publishTime>02/22/2019 15:28:45</publishTime>
+    </File>
+    <File Include="assets/img/loading.gif">
+      <publishTime>02/22/2019 15:34:11</publishTime>
+    </File>
+    <File Include="assets/img/main-nav-bg.png">
+      <publishTime>06/20/2018 11:39:41</publishTime>
+    </File>
+    <File Include="assets/img/main-nav-close.png">
+      <publishTime>02/22/2019 15:31:44</publishTime>
+    </File>
+    <File Include="assets/img/main-nav-left.png">
+      <publishTime>02/22/2019 15:31:28</publishTime>
+    </File>
+    <File Include="assets/img/main-nav-right.png">
+      <publishTime>02/22/2019 15:32:03</publishTime>
+    </File>
+    <File Include="assets/js/Contains.js">
+      <publishTime>06/20/2018 11:21:19</publishTime>
+    </File>
+    <File Include="assets/js/jquery-1.9.1.min.js">
+      <publishTime>06/20/2018 10:56:50</publishTime>
+    </File>
+    <File Include="assets/js/labs/codemirror/addon/merge/dep/diff_match_patch.js">
+      <publishTime>02/28/2019 11:28:50</publishTime>
+    </File>
+    <File Include="assets/js/labs/codemirror/addon/merge/merge.css">
+      <publishTime>02/28/2019 11:26:48</publishTime>
+    </File>
+    <File Include="assets/js/labs/codemirror/addon/merge/merge.js">
+      <publishTime>02/28/2019 11:29:16</publishTime>
+    </File>
+    <File Include="assets/js/labs/codemirror/lib/codemirror.css">
+      <publishTime>02/28/2019 11:25:58</publishTime>
+    </File>
+    <File Include="assets/js/labs/codemirror/lib/codemirror.js">
+      <publishTime>02/28/2019 11:33:42</publishTime>
+    </File>
+    <File Include="assets/js/labs/codemirror/mode/xml/xml.js">
+      <publishTime>02/28/2019 11:28:10</publishTime>
+    </File>
+    <File Include="assets/js/labs/json/app.min.css">
+      <publishTime>02/27/2019 16:17:12</publishTime>
+    </File>
+    <File Include="assets/js/labs/json/app.min.js">
+      <publishTime>02/27/2019 16:17:43</publishTime>
+    </File>
+    <File Include="assets/js/labs/json/img/jsoneditor-icons.svg">
+      <publishTime>02/27/2019 16:20:47</publishTime>
+    </File>
+    <File Include="assets/js/labs/remodal-default-theme.css">
+      <publishTime>06/20/2018 11:20:48</publishTime>
+    </File>
+    <File Include="assets/js/labs/remodal.css">
+      <publishTime>06/20/2018 11:20:20</publishTime>
+    </File>
+    <File Include="assets/js/labs/remodal.js">
+      <publishTime>06/20/2018 11:21:59</publishTime>
+    </File>
+    <File Include="assets/js/menuTabs.js">
+      <publishTime>06/20/2018 10:58:51</publishTime>
+    </File>
+    <File Include="assets/js/saveDiffer.js">
+      <publishTime>06/20/2018 11:22:21</publishTime>
+    </File>
+    <File Include="assets/js/tab.js">
+      <publishTime>06/20/2018 10:59:15</publishTime>
+    </File>
+    <File Include="bin/DispDB.dll">
+      <publishTime>02/28/2019 17:39:46</publishTime>
+    </File>
+    <File Include="bin/DispDB.pdb">
+      <publishTime>02/28/2019 17:39:46</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>08/15/2017 13:12:32</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="data-browse.aspx">
+      <publishTime>02/27/2019 17:02:51</publishTime>
+    </File>
+    <File Include="differ-txt.aspx">
+      <publishTime>02/28/2019 11:23:54</publishTime>
+    </File>
+    <File Include="index.aspx">
+      <publishTime>02/28/2019 17:41:28</publishTime>
+    </File>
+    <File Include="json-editor.aspx">
+      <publishTime>02/27/2019 16:22:50</publishTime>
+    </File>
+    <File Include="main.aspx">
+      <publishTime>02/22/2019 16:29:12</publishTime>
+    </File>
+    <File Include="upload/1.png">
+      <publishTime>02/22/2019 15:30:32</publishTime>
+    </File>
+    <File Include="upload/2.png">
+      <publishTime>02/22/2019 15:30:39</publishTime>
+    </File>
+    <File Include="upload/3.png">
+      <publishTime>02/22/2019 15:30:47</publishTime>
+    </File>
+    <File Include="upload/4.png">
+      <publishTime>02/22/2019 15:30:56</publishTime>
+    </File>
+    <File Include="v2.gif">
+      <publishTime>02/22/2019 16:29:14</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>02/28/2019 10:52:18</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,340 @@
+﻿body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI',Arial,'Microsoft Yahei',sans-serif;
+    color: #000;
+    letter-spacing: 1px;
+    font-size: 75%;
+    background: #F4F4F4;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+ul, li {
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    background-color: #428bca;
+    padding: 0px 5px;
+    font-size: 11.9px;
+    border-radius: 3px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #428bca;
+    color: #fff;
+}
+
+.Differ .Filter {
+    background: #ECECEC;
+    border-bottom: 1px solid #D8D8D8;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 5px;
+}
+
+.Differ .Return {
+    margin: 5px;
+    border: 1px solid #DCDCDC;
+    background: #FFF;
+}
+
+.Differ .ReturnLeft, .Differ .ReturnRight {
+    border: 1px solid #DCDCDC;
+    background: #FFF;
+}
+
+.Differ .ReturnTitle {
+    background: #ececec;
+    border-bottom: 1px solid #DCDCDC;
+    padding: 2px 5px;
+}
+
+.Differ .ReturnContent {
+    background: #FFF;
+    overflow: scroll;
+}
+
+.Differ .ReturnLeft {
+    float: left;
+    margin-left: 5px;
+}
+
+.Differ .ReturnRight {
+    float: right;
+    margin-right: 5px;
+}
+
+ul.tree, ul.tree ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+    ul.tree li {
+        font-size: 11px;
+        white-space: nowrap;
+        border-bottom: 1px solid #f4f0f0;
+    }
+
+        ul.tree li a {
+            line-height: 24px;
+        }
+
+    ul.tree ul li {
+        height: 24px;
+        line-height: 24px;
+        font-size: 11px;
+    }
+
+    ul.tree li.i {
+        background-image: url(../img/bg.gif);
+        background-repeat: no-repeat;
+    }
+
+        ul.tree li.i.t {
+            background-image: url(../img/icon-table.gif);
+            background-repeat: no-repeat;
+            background-position: 11px 7px;
+        }
+
+            ul.tree li.i.t.view {
+                background-image: url(../img/icon-view.gif);
+                background-repeat: no-repeat;
+                background-position: 11px 7px;
+            }
+
+            ul.tree li.i.t.proc {
+                background-image: url(../img/icon-proc.gif);
+                background-repeat: no-repeat;
+                background-position: 11px 7px;
+            }
+
+            ul.tree li.i.t a {
+                padding-left: 30px;
+                color: #337ab7;
+                text-decoration: none;
+            }
+
+        ul.tree li.i.f {
+            background-position: 30px -96px;
+            padding-left: 65px;
+            margin-left: -18px;
+        }
+
+        ul.tree li.i.fk {
+            background-position: 30px 0px;
+            padding-left: 65px;
+            margin-left: -18px;
+        }
+
+        ul.tree li.i.fka {
+            background-position: 30px -192px;
+            padding-left: 65px;
+            margin-left: -18px;
+        }
+
+        ul.tree li.i.fa {
+            background-position: 30px -240px;
+            padding-left: 65px;
+            margin-left: -18px;
+        }
+
+    ul.tree ul li.f:last-child {
+        background-position: 30px -48px;
+        padding-left: 65px;
+        margin-left: -18px;
+    }
+
+    ul.tree li li i {
+        padding-left: 5px;
+        color: #A0A0A0;
+    }
+
+    ul.tree li.t i.i {
+        color: #827AA5;
+    }
+
+    ul.tree li li i.i {
+        color: #7AA57A;
+    }
+
+    ul.tree .d a {
+        color: red;
+        text-decoration: line-through;
+    }
+
+    ul.tree .n a {
+        color: red;
+        text-decoration: line-through;
+    }
+
+    ul.tree .g a {
+        color: green !important;
+    }
+
+    ul.tree .e, ul.tree .e a {
+        color: red !important;
+    }
+
+    ul.tree .te a {
+        color: red !important;
+    }
+
+    ul.tree .d, ul.tree .d a, ul.tree .d i, ul.tree .d i.i {
+        color: #ddd !important;
+        text-decoration: line-through;
+    }
+
+    ul.tree .n, ul.tree .n a, ul.tree .n i, ul.tree .n i.i {
+        color: #ddd !important;
+        text-decoration: line-through;
+    }
+
+.Differ .Return .List {
+    height: 55px;
+    overflow-y: auto;
+    line-height: 26px;
+    word-wrap: break-word;
+    padding: 5px;
+}
+
+.main .Return .List a {
+    background-image: url(../img/bg.gif);
+    background-repeat: no-repeat;
+    padding: 0 5px 0 22px;
+    line-height: 20px;
+    height: 20px;
+    font-size: 12px;
+    border: 1px solid #eee;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+    .main .Return .List a.new {
+        background-position: 0px -288px;
+    }
+
+    .main .Return .List a.edit {
+        background-position: 0px -319px;
+    }
+
+    .main .Return .List a.delete {
+        background-position: 0px -353px;
+    }
+
+
+.ReturnContent.show-column li ul {
+    display: block;
+}
+
+.ReturnContent li ul {
+    display: none;
+}
+
+
+.loading {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    _position: absolute;
+    top: 0;
+    z-index: 1000;
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+    background-color: #ddd;
+    background-image: url(../img/loading.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.sql {
+    height: inherit !important;
+    line-height: inherit !important;
+    height: 50px;
+    margin-left: 20px;
+    margin: 2px 2px 2px 16px;
+}
+
+    .sql textarea {
+        width: 100%;
+        height: 60px;
+        padding: 5px;
+        line-height: 18px;
+    }
+
+
+.mainSave {
+    text-align: left;
+    height: 160px;
+    overflow: auto;
+    border: 1px solid #bdbbbb;
+    padding: 5px;
+}
+
+#formSave {
+    text-align: left;
+    clear: both;
+    border: 1px solid #bdbbbb;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+    #formSave .txt-fld {
+        position: relative;
+        padding: 5px 20px;
+        border-bottom: 1px solid #EEE;
+    }
+
+        #formSave .txt-fld label {
+            display: inline;
+            padding-top: 8px;
+            color: #222;
+            font-size: 1.3em;
+            text-align: left;
+        }
+
+        #formSave .txt-fld input {
+            padding: 8px;
+            border-radius: 4px;
+            -moz-border-radius: 4px;
+            -webkit-border-radius: 4px;
+            font-size: 1.2em;
+            color: #222;
+            background: #F7F7F7;
+            font-family: "Helvetica Neue";
+            outline: none;
+            border-top: 1px solid #CCC;
+            border-left: 1px solid #CCC;
+            border-right: 1px solid #E7E6E6;
+            border-bottom: 1px solid #E7E6E6;
+        }
+
+    #formSave .remodal-save {
+        padding: 4px 15px;
+    }
+
+.mainSave .ReturnLeft {
+    width: 49%;
+}
+
+.mainSave .ReturnRight {
+    width: 49%;
+}
+
+.sync {
+    color: orange !important;
+    font-weight: bold;
+    cursor: pointer;
+}
